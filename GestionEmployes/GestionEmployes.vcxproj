@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b2b38312-a5f8-4458-b1cb-f147ca5fdd60}</ProjectGuid>
-    <RootNamespace>Transgerbeur</RootNamespace>
+    <ProjectGuid>{4e9cd315-e215-4922-9e1d-c2d6029af574}</ProjectGuid>
+    <RootNamespace>GestionEmployes</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Transgerbeurcpp.cpp" />
+    <ClCompile Include="gestionEmp.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
